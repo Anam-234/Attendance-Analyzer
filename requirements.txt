@@ -2,3 +2,4 @@ pandas==2.0.3
 openpyxl==3.0.10  # To read Excel files
 streamlit==1.12.0  # For the web interface
 matplotlib==3.7.1   # For generating charts
+numpy==2.2.2 
