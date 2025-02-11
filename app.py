@@ -100,7 +100,7 @@ def visualize_data(cleaned_data):
 
 # Main application
 def main():
-    st.title("Intern Performance Analysis")
+    st.title("Employee Attendance Analysis")
     
     # Upload file
     file = upload_file()
