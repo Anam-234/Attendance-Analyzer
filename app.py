@@ -106,11 +106,7 @@ def main():
     file = upload_file()
     if file:
         cleaned_data, output_data = process_file(file)
-        st.markdown("""
-        <style>
-        [data-testid="stAppViewContainer"]{background-color: #2E4269;}
-        </style>""",
-                    unsafe_allow_html=True)
+        
         # Display data preview
         st.subheader("Data Preview")
         st.dataframe(cleaned_data[['Personnel ID', 'Name', 'Date', 'Time Done', 'Work Category']])
